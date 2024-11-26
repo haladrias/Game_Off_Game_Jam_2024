@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://dp64wciqbhn03"]
+[gd_scene load_steps=3 format=3 uid="uid://dp64wciqbhn03"]
+
+[ext_resource type="Script" path="res://Scenes/main_character.gd" id="1_26gip"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_go8nh"]
 
 [node name="Main_Character" type="CharacterBody2D"]
+script = ExtResource("1_26gip")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 
