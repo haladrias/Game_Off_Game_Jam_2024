@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://be6kfjp85tsyg"]
+[gd_scene load_steps=2 format=3 uid="uid://be6kfjp85tsyg"]
+
+[ext_resource type="Script" path="res://state_machine.gd" id="1_gpgp0"]
 
 [node name="State_Machine" type="Node"]
+script = ExtResource("1_gpgp0")
 
 [node name="Idle" type="Node" parent="."]
 
